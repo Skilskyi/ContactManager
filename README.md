@@ -2,7 +2,7 @@
 
 Contact Manager is a web application developed in ASP.NET Core MVC that allows users to manage contact information. The project implements functions for viewing, creating, editing, deleting contacts, and uploading data from CSV files.
 
-##Architecture
+## Architecture
 The project uses the Clean Architecture architecture divided into four main layers:
 
 Application Layer:
