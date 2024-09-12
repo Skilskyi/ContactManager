@@ -50,3 +50,8 @@ Example of the mocked file
 
 ![image](https://github.com/user-attachments/assets/49099cb1-ca31-47bc-ae94-e377e212dda9)
 
+Updated contacts list
+
+![image](https://github.com/user-attachments/assets/b3f0fcc9-27bb-4416-8aca-380fccb20fae)
+
+
