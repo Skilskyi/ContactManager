@@ -18,4 +18,5 @@ Infrastructure Layer:
 Contains interface implementations and database access. ContactRepository.cs, which implements the IContactRepository.cs interface, and ContactDbContext.cs, which is responsible for interacting with the database.
 
 Web Layer:
-Contains controllers and views, which processes requests from the user, and the corresponding views for displaying data.
+
+Contains controllers and views, which processes requests from the user, and display the data.
