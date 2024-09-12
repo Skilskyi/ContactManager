@@ -29,6 +29,7 @@ The main page that displays a list of all the contacts with data in the table.
 ![image](https://github.com/user-attachments/assets/ba568be4-6284-45c3-9a7f-9c1b5d7dd1b6)
 
 Opposite each of the contacts there is an option to edit and delete. 
+
 Edit contact: A form for editing an existing contact.
 
 ![image](https://github.com/user-attachments/assets/82e27a1b-749e-4d21-ae38-5bde0f0eea26)
