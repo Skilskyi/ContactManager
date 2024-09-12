@@ -1,0 +1,43 @@
+﻿@model ContactManager.Domain.Entities.Contact
+
+<p>
+    <h1>Create Contact</h1>
+</p>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DateOfBirth" class="control-label"></label>
+        <input asp-for="DateOfBirth" class="form-control" type="date" />
+        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="IsMarried" class="control-label"></label>
+        <select asp-for="IsMarried" class="form-control">
+            <option value="true">Married</option>
+            <option value="false">Unmarried</option>
+        </select>
+        <span asp-validation-for="IsMarried" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Phone" class="control-label"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Salary" class="control-label"></label>
+        <input asp-for="Salary" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="Salary" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
